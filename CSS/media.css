@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+  nav {
+    position: static;
+  }
+  nav ul {
+    width: 100%;
+    top: 70px;
+    left: 0px;
+  }
+  nav ul li {
+    width: 100%;
+  }
+  nav ul::before {
+    right: 40px;
+  }
+  .landing .intro-text {
+    margin-top: 100px;
+  }
+  .service-content {
+    text-align: center;
+  }
+  .contact p {
+    font-size: 20px;
+    word-wrap: normal;
+  }
+  .contact .social p {
+    font-size: 12px;
+  }
+  .contact .email {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .services-content:nth-child(3) {
+    display: none;
+  }
+  .about .image,
+  .about img,
+  .about span {
+    display: none;
+  }
+  .about-content {
+    justify-content: center;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .contact p {
+    font-size: 20px;
+  }
+  .contact .social p {
+    font-size: 12px;
+  }
+  .contact .email {
+    font-size: 16px;
+  }
+}
